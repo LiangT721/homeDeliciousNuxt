@@ -1,0 +1,113 @@
+{
+  "EditFoodInfoEdit": {
+    "description": "Auto imported from components/edit/foodInfoEdit.vue"
+  },
+  "EditMethodEdit": {
+    "description": "Auto imported from components/edit/methodEdit.vue"
+  },
+  "FoodVueCookwayIcon": {
+    "description": "Auto imported from components/food.vue/cookwayIcon.vue"
+  },
+  "FoodInfoText": {
+    "description": "Auto imported from components/food.vue/foodInfoText.vue"
+  },
+  "FoodIngredients": {
+    "description": "Auto imported from components/food.vue/foodIngredients.vue"
+  },
+  "FoodMethods": {
+    "description": "Auto imported from components/food.vue/foodMethods.vue"
+  },
+  "FoodPhoto": {
+    "description": "Auto imported from components/food.vue/foodPhoto.vue"
+  },
+  "FoodVueRateGrade": {
+    "description": "Auto imported from components/food.vue/rateGrade.vue"
+  },
+  "HomePageSelectionBar": {
+    "description": "Auto imported from components/homePage/selectionBar.vue"
+  },
+  "HomePageTrendList": {
+    "description": "Auto imported from components/homePage/trendList.vue"
+  },
+  "LoginPageSignUp": {
+    "description": "Auto imported from components/loginPage/signUp.vue"
+  },
+  "PublicBottomBar": {
+    "description": "Auto imported from components/public/bottomBar.vue"
+  },
+  "PublicCardList": {
+    "description": "Auto imported from components/public/cardList.vue"
+  },
+  "PublicCollection": {
+    "description": "Auto imported from components/public/collection.vue"
+  },
+  "PublicFoodCard": {
+    "description": "Auto imported from components/public/foodCard.vue"
+  },
+  "PublicGrade": {
+    "description": "Auto imported from components/public/grade.vue"
+  },
+  "PublicIconLoading": {
+    "description": "Auto imported from components/public/iconLoading.vue"
+  },
+  "PublicImagePreview": {
+    "description": "Auto imported from components/public/imagePreview.vue"
+  },
+  "PublicImageUpload": {
+    "description": "Auto imported from components/public/imageUpload.vue"
+  },
+  "PublicLogo": {
+    "description": "Auto imported from components/public/logo.vue"
+  },
+  "PublicSearchBar": {
+    "description": "Auto imported from components/public/searchBar.vue"
+  },
+  "PublicSideBar": {
+    "description": "Auto imported from components/public/sideBar.vue"
+  },
+  "PublicUserIcon": {
+    "description": "Auto imported from components/public/userIcon.vue"
+  },
+  "SearchTag": {
+    "description": "Auto imported from components/searchPage.vue/searchTag.vue"
+  },
+  "SettingPageAccountModify": {
+    "description": "Auto imported from components/settingPage/accountModify.vue"
+  },
+  "SettingPageDeleteAccount": {
+    "description": "Auto imported from components/settingPage/deleteAccount.vue"
+  },
+  "SettingPageImageEditPreview": {
+    "description": "Auto imported from components/settingPage/imageEditPreview.vue"
+  },
+  "SettingPageLanuageSetting": {
+    "description": "Auto imported from components/settingPage/lanuageSetting.vue"
+  },
+  "SettingPagePasswordComfirm": {
+    "description": "Auto imported from components/settingPage/passwordComfirm.vue"
+  },
+  "SettingPagePasswordModify": {
+    "description": "Auto imported from components/settingPage/passwordModify.vue"
+  },
+  "SharePageFoodInfoUpload": {
+    "description": "Auto imported from components/sharePage/foodInfoUpload.vue"
+  },
+  "SharePageFoodIngredientsEdit": {
+    "description": "Auto imported from components/sharePage/foodIngredientsEdit.vue"
+  },
+  "SharePageFoodMethodEdit": {
+    "description": "Auto imported from components/sharePage/foodMethodEdit.vue"
+  },
+  "SharePageMethodUpload": {
+    "description": "Auto imported from components/sharePage/methodUpload.vue"
+  },
+  "UserCollectionCards": {
+    "description": "Auto imported from components/userPage/userCollectionCards.vue"
+  },
+  "UserFoodCards": {
+    "description": "Auto imported from components/userPage/userFoodCards.vue"
+  },
+  "UserPageToggle": {
+    "description": "Auto imported from components/userPage/userPageToggle.vue"
+  }
+}
