@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Rubik&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* public */
+.h-halfScreen{
+    height: 50vh;
+}
+
+.h-60Screen{
+    height: 60vh;
+}
+
+.h-wScreen{
+    height: 100vw;
+}
+
+.button {
+    @apply bg-fontColorlight uppercase text-barBgc py-1 px-2 rounded shadow-lg transition-all cursor-pointer hover:bg-barBgc hover:text-fontColorlight
+}
+
+.text-shadow {
+    text-shadow: 2px 2px black;
+}
+
+.button_select {
+    @apply text-fontColorlight bg-barBgc
+}
+
+.page-background {
+    @apply min-h-screen bg-primary
+}
+
+.page {
+    @apply container m-auto pb-16 grid md:p-0 md:grid-cols-4 
+}
+.left {
+    @apply hidden md:block relative
+}
+.right {
+    @apply box-border md:col-span-3 md:w-5/6 relative 
+}
+
+.search-bar {
+    @apply h-20 sticky top-0 bg-primary z-30
+}
+
+.icon {
+    border-radius: 50%;
+    @apply inline h-4
+}
+.icon-title {
+    border-radius: 50%;
+    @apply h-full
+}
+
+.rounded-round {
+    border-radius: 50%;
+}
+
+.input-area{
+    @apply border rounded-sm border-gray-600 mx-2
+}
+
+
+
+
+
+
+/* Login page  */
+
+.reg-title {
+    @apply text-center font-fonts 
+}
+
+
+
+
+
+/* home page */
+
+.top {
+    @apply grid h-20 grid-cols-5 md:hidden
+}
+
+
+/* homepage */
+.category-icon {
+    @apply w-16 p-3 rounded-full bg-white mr-5 inline-block shadow-md cursor-pointer hover:shadow-2xl
+}
+
+.side-bar-btn {
+    @apply uppercase text-fontColorlight py-1 px-2 rounded-2xl transition-all cursor-pointer hover:bg-barBgc
+}
+
+
+/* share page */
+.share-page {
+    @apply container m-auto pb-5 grid md:p-0 md:grid-cols-4 
+
+}
+
+.info-line-between {
+    @apply w-full bg-white flex justify-between px-5 py-2
+}
+
+.required {
+    @apply text-red-400 text-sm mr-2
+}
+
+.select {
+    @apply border border-gray-700 text-center
+}
+
+
+/* food page */
+.cooking-icon {
+    @apply w-1/4 p-3 bg-red-300 rounded-2xl md:w-1/5
+}
+
