@@ -999,12 +999,12 @@ webpackContext.id = 46;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodInfoText.vue?vue&type=template&id=78df7c86&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"grid grid-cols-6 px-6 py-5 content-start gap-y-3 font-fonts relative"},[(_vm.checkUser)?_vm._ssrNode("<div class=\"edit-option absolute right-5 top-16\" data-v-78df7c86>","</div>",[_vm._ssrNode("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"h-6 w-6 text-shadow\" style=\"text-shadow: 5px 5px 5px black\" data-v-78df7c86><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z\" clip-rule=\"evenodd\" data-v-78df7c86></path></svg> "),_c('transition',{attrs:{"name":"fade"}},[(_vm.option_appear)?_c('div',{staticClass:"option uppercase bg-primary absolute right-0 rounded-md shadow-lg text-center"},[_c('p',{staticClass:"hover:bg-white p-2",on:{"click":function($event){return _vm.toEditPage()}}},[(this.$store.getters.lan)?_c('span',[_vm._v("修改")]):_c('span',[_vm._v("edit")])]),_vm._v(" "),_c('p',{staticClass:"hover:bg-white p-2",on:{"click":_vm.deleteFood}},[(this.$store.getters.lan)?_c('span',[_vm._v("删除")]):_c('span',[_vm._v("delete")])])]):_vm._e()])],2):_vm._e(),_vm._ssrNode(" "),_c('grade',{staticClass:"col-span-4",attrs:{"grade":_vm.food.grade,"icon_size":"text-2xl"}}),_vm._ssrNode(" "),_c('collection',{staticClass:"col-span-2",attrs:{"food":_vm.food}}),_vm._ssrNode(" <p class=\"food-name col-span-5 text-3xl font-bold\" data-v-78df7c86>"+_vm._ssrEscape(_vm._s(_vm.food.food_name))+"</p> <div class=\"tags col-span-4 flex justify-between text-lg text-fontColordark\" data-v-78df7c86><p data-v-78df7c86>"+_vm._ssrEscape(_vm._s(_vm.food.food_location))+"</p> <p data-v-78df7c86>"+_vm._ssrEscape(_vm._s(_vm.food.food_category))+"</p> <p data-v-78df7c86>"+_vm._ssrEscape(_vm._s(_vm.food.tag))+"</p></div> <div class=\"users col-span-6 flex text-lg font-semibold\" data-v-78df7c86>"+_vm._ssrEscape("\n    by "+_vm._s(_vm.food.username)+"\n    ")+"<img"+(_vm._ssrAttr("src",_vm.food.icon))+" alt class=\"h-6 ml-3 rounded-round\" data-v-78df7c86></div> <div class=\"description col-span-6 text-lg font-thin text-justify\" data-v-78df7c86>"+_vm._ssrEscape("\n    "+_vm._s(_vm.food.food_description)+"\n  ")+"</div> "),_vm._ssrNode("<div class=\"cooking-icons col-span-6 flex justify-between md:justify-around font-semibold\" data-v-78df7c86>","</div>",[_c('cookway-icon',{staticClass:"cooking-icon",attrs:{"cooking_way":_vm.food.cooking_way}}),_vm._ssrNode(" <p class=\"cooking-icon text-center grid content-center\" data-v-78df7c86>"+_vm._ssrEscape("\n      "+_vm._s(_vm.food.cooking_time)+"MIN\n    ")+"</p> <div class=\"cooking-icon text-center grid content-center\" data-v-78df7c86>"+_vm._ssrEscape("\n      "+_vm._s(_vm.food.difficulty)+"\n    ")+"</div>")],2)],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodInfoText.vue?vue&type=template&id=6ca8e1fb&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"grid grid-cols-6 px-6 py-5 content-start gap-y-3 font-fonts relative"},[(_vm.checkUser)?_vm._ssrNode("<div class=\"edit-option absolute right-5 top-16\" data-v-6ca8e1fb>","</div>",[_vm._ssrNode("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"h-6 w-6 text-shadow\" style=\"text-shadow: 5px 5px 5px black\" data-v-6ca8e1fb><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z\" clip-rule=\"evenodd\" data-v-6ca8e1fb></path></svg> "),_c('transition',{attrs:{"name":"fade"}},[(_vm.option_appear)?_c('div',{staticClass:"option uppercase bg-primary absolute right-0 rounded-md shadow-lg text-center"},[_c('p',{staticClass:"hover:bg-white p-2",on:{"click":function($event){return _vm.toEditPage()}}},[(this.$store.getters.lan)?_c('span',[_vm._v("修改")]):_c('span',[_vm._v("edit")])]),_vm._v(" "),_c('p',{staticClass:"hover:bg-white p-2",on:{"click":_vm.deleteFood}},[(this.$store.getters.lan)?_c('span',[_vm._v("删除")]):_c('span',[_vm._v("delete")])])]):_vm._e()])],2):_vm._e(),_vm._ssrNode(" "),_c('grade',{staticClass:"col-span-4",attrs:{"grade":_vm.food.grade,"icon_size":"text-2xl"}}),_vm._ssrNode(" "),_c('collection',{staticClass:"col-span-2",attrs:{"food":_vm.food}}),_vm._ssrNode(" <p class=\"food-name col-span-5 text-3xl font-bold\" data-v-6ca8e1fb>"+_vm._ssrEscape(_vm._s(_vm.food.food_name))+"</p> <div class=\"tags col-span-4 flex justify-between text-lg text-fontColordark\" data-v-6ca8e1fb><p data-v-6ca8e1fb>"+_vm._ssrEscape(_vm._s(_vm.food.food_location))+"</p> <p data-v-6ca8e1fb>"+_vm._ssrEscape(_vm._s(_vm.food.food_category))+"</p> <p data-v-6ca8e1fb>"+_vm._ssrEscape(_vm._s(_vm.food.tag))+"</p></div> <div class=\"users col-span-6 flex text-lg font-semibold\" data-v-6ca8e1fb>"+_vm._ssrEscape("\n    by "+_vm._s(_vm.food.username)+"\n    ")+"<img"+(_vm._ssrAttr("src",_vm.food.icon))+" alt class=\"h-6 ml-3 rounded-round\" data-v-6ca8e1fb></div> <div class=\"description col-span-6 text-lg font-thin text-justify md:h-60 md:overflow-auto\" data-v-6ca8e1fb>"+_vm._ssrEscape("\n    "+_vm._s(_vm.food.food_description)+"\n  ")+"</div> "),_vm._ssrNode("<div class=\"cooking-icons col-span-6 flex justify-between md:justify-around font-semibold\" data-v-6ca8e1fb>","</div>",[_c('cookway-icon',{staticClass:"cooking-icon",attrs:{"cooking_way":_vm.food.cooking_way}}),_vm._ssrNode(" <p class=\"cooking-icon text-center grid content-center\" data-v-6ca8e1fb>"+_vm._ssrEscape("\n      "+_vm._s(_vm.food.cooking_time)+"MIN\n    ")+"</p> <div class=\"cooking-icon text-center grid content-center\" data-v-6ca8e1fb>"+_vm._ssrEscape("\n      "+_vm._s(_vm.food.difficulty)+"\n    ")+"</div>")],2)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/food.vue/foodInfoText.vue?vue&type=template&id=78df7c86&scoped=true&
+// CONCATENATED MODULE: ./components/food.vue/foodInfoText.vue?vue&type=template&id=6ca8e1fb&scoped=true&
 
 // EXTERNAL MODULE: ./components/public/collection.vue + 4 modules
 var collection = __webpack_require__(27);
@@ -1167,7 +1167,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "78df7c86",
+  "6ca8e1fb",
   "52a21612"
   
 )
@@ -1182,12 +1182,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodPhoto.vue?vue&type=template&id=2e1b57fe&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_vm._ssrNode("<div class=\"background-photo h-full relative\" data-v-2e1b57fe><img"+(_vm._ssrAttr("src",_vm.bg_photo))+" alt srcset class=\"h-full w-full object-cover\" data-v-2e1b57fe> <div class=\"photo-list h-1/6 justify-center flex min-w-full absolute bottom-0 overflow-x-scroll overflow-y-hidden whitespace-nowrap\" data-v-2e1b57fe>"+(_vm._ssrList((_vm.photoList),function(photo){return ("<img"+(_vm._ssrAttr("src",photo.url))+" alt class=\"h-full mr-2 z-10 transition\" data-v-2e1b57fe>")}))+" <div class=\"w-full h-full absolute bottom-0 z-0 bg-gray-900 opacity-80\" data-v-2e1b57fe></div></div></div>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodPhoto.vue?vue&type=template&id=73f49ac6&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_vm._ssrNode("<div class=\"background-photo h-full relative\" data-v-73f49ac6><img"+(_vm._ssrAttr("src",_vm.bg_photo))+" alt srcset class=\"h-full w-full object-cover\" data-v-73f49ac6> <div class=\"photo-list h-1/6 justify-center flex min-w-full absolute bottom-0 overflow-x-scroll overflow-y-hidden whitespace-nowrap\" data-v-73f49ac6>"+(_vm._ssrList((_vm.photoList),function(photo){return ("<img"+(_vm._ssrAttr("src",photo.url))+" alt class=\"h-full mr-2 z-10 transition\" data-v-73f49ac6>")}))+" <div class=\"w-full h-full absolute bottom-0 z-0 bg-gray-900 opacity-80\" data-v-73f49ac6></div></div></div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/food.vue/foodPhoto.vue?vue&type=template&id=2e1b57fe&scoped=true&
+// CONCATENATED MODULE: ./components/food.vue/foodPhoto.vue?vue&type=template&id=73f49ac6&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodPhoto.vue?vue&type=script&lang=js&
 //
@@ -1254,7 +1254,17 @@ var staticRenderFns = []
 
   mounted() {
     console.log(this.food.image);
-    this.photoList = this.food.image;
+    console.log(this.food.image.length);
+
+    if (this.food.image.length == 0) {
+      this.photoList = [{
+        url: "https://homedelicious.ml/img/uploadImgs/2021526_undefined_default.jpg"
+      }];
+    } else {
+      this.photoList = this.food.image;
+    }
+
+    console.log(this.photoList);
     this.bg_photo = this.photoList[0].url;
   }
 
@@ -1281,7 +1291,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "2e1b57fe",
+  "73f49ac6",
   "58729d34"
   
 )
@@ -1521,12 +1531,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sharePage/foodMethodEdit.vue?vue&type=template&id=692747f2&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"py-5 content-start gap-y-3 font-fonts"},[_vm._ssrNode("<p class=\"food-name text-3xl font-bold mb-5\" data-v-692747f2>Methods:</p> "),_vm._l((_vm.processes),function(process){return _vm._ssrNode("<div class=\"mb-5 bg-white p-5 shadow-md rounded-xl md:px-8 md:py-3\" data-v-692747f2>","</div>",[_vm._ssrNode("<p class=\"uppercase text-center text-xl mb-8 font-semibold relative md:mb-3\" data-v-692747f2>"+_vm._ssrEscape("\n      Step : "+_vm._s(process.id + 1)+"\n      ")+"<span class=\"absolute right-0 cursor-pointer text-shadow\" data-v-692747f2><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" class=\"h-6 w-6\" data-v-692747f2><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\" data-v-692747f2></path></svg></span></p> "),_vm._ssrNode("<div class=\"md:grid md:grid-cols-3 md:items-start md:w-full md:mx-auto md:h-40 md:border md:border-fontColordark rounded-md overflow-hidden\" data-v-692747f2>","</div>",[_vm._ssrNode("<textarea name=\"method-text\" id rows=\"5\""+(_vm._ssrClass("font-thin w-full text-justify mx-auto h-40 md:w-full md:h-full md:col-span-2 border border-black md:border-none",process.order))+" data-v-692747f2>"+_vm._ssrEscape(_vm._s(process.text))+"</textarea> "),(process.img)?_c('image-preview',{staticClass:"h-52 overflow-hidden md:order-1 md:h-full md:col-span-1",attrs:{"image_type":"image","image_url":process.img},on:{"delete_res":function($event){return _vm.delete_res(process.id)}}}):_c('div',{staticClass:"md:py-10 bg-barBgc h-full border border-primary"},[_c('p',{staticClass:"text-center"},[(_vm.lan)?_c('span',[_vm._v("添加图片")]):_c('span',[_vm._v("Add photo")])]),_vm._v(" "),_c('image-upload',{attrs:{"id":process.id},on:{"newImage":_vm.newImage}})],1)],2),_vm._ssrNode(" <hr class=\"col-span-3 md:mb-10 md:w-5/6 md:mx-auto\" data-v-692747f2>")],2)})],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/sharePage/foodMethodEdit.vue?vue&type=template&id=6661331d&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"py-5 content-start gap-y-3 font-fonts"},[_vm._ssrNode("<p class=\"food-name text-3xl font-bold mb-5\" data-v-6661331d>Methods:</p> "),_vm._l((_vm.processes),function(process){return _vm._ssrNode("<div class=\"mb-5 bg-white p-5 shadow-md rounded-xl md:px-8 md:py-3 \" data-v-6661331d>","</div>",[_vm._ssrNode("<p class=\"uppercase text-center text-xl mb-8 font-semibold relative md:mb-3\" data-v-6661331d>"+_vm._ssrEscape("\n      Step : "+_vm._s(process.id + 1)+"\n      ")+"<span class=\"absolute right-0 cursor-pointer text-shadow\" data-v-6661331d><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" class=\"h-6 w-6\" data-v-6661331d><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16\" data-v-6661331d></path></svg></span></p> "),_vm._ssrNode("<div class=\"md:grid md:grid-cols-3 md:items-start md:w-full md:mx-auto md:h-40 md:border md:border-fontColordark rounded-md overflow-hidden\" data-v-6661331d>","</div>",[_vm._ssrNode("<textarea name=\"method-text\" id rows=\"5\""+(_vm._ssrClass("font-thin w-full text-justify mx-auto h-40 md:w-full md:h-full md:col-span-2 border border-black md:border-none",process.order))+" data-v-6661331d>"+_vm._ssrEscape(_vm._s(process.text))+"</textarea> "),(process.img)?_c('image-preview',{staticClass:"h-52 overflow-hidden md:order-1 md:h-full md:col-span-1",attrs:{"image_type":"image","image_url":process.img},on:{"delete_res":function($event){return _vm.delete_res(process.id)}}}):_c('div',{staticClass:"md:py-10 bg-barBgc h-full border border-primary"},[_c('p',{staticClass:"text-center"},[(_vm.lan)?_c('span',[_vm._v("添加图片")]):_c('span',[_vm._v("Add photo")])]),_vm._v(" "),_c('image-upload',{attrs:{"id":process.id},on:{"newImage":_vm.newImage}})],1)],2),_vm._ssrNode(" <hr class=\"col-span-3 md:mb-10 md:w-5/6 md:mx-auto\" data-v-6661331d>")],2)})],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/sharePage/foodMethodEdit.vue?vue&type=template&id=692747f2&scoped=true&
+// CONCATENATED MODULE: ./components/sharePage/foodMethodEdit.vue?vue&type=template&id=6661331d&scoped=true&
 
 // EXTERNAL MODULE: ./components/public/imagePreview.vue + 4 modules
 var imagePreview = __webpack_require__(30);
@@ -1716,7 +1726,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "692747f2",
+  "6661331d",
   "f877d622"
   
 )
@@ -1729,9 +1739,9 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44);
-/* harmony import */ var _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44);
+/* harmony import */ var _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -2107,12 +2117,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/edit/methodEdit.vue?vue&type=template&id=25b57629&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"font-fonts"},[_vm._ssrNode("<div class=\"ingredients px-6 py-5 content-start gap-y-3 font-fonts\" data-v-25b57629>","</div>",[_vm._ssrNode("<div class=\"ingredient-preview\" data-v-25b57629>","</div>",[_c('food-ingredients-edit')],1),_vm._ssrNode(" <div class=\"ingredient-preview-input grid grid-cols-5 my-3 text-md gap-x-2 ml-2\" data-v-25b57629><input type=\"text\" placeholder=\"Butter\""+(_vm._ssrAttr("value",(_vm.material)))+" class=\"col-span-3\" data-v-25b57629> <input type=\"text\" placeholder=\"150g\""+(_vm._ssrAttr("value",(_vm.amount)))+" class=\"col-span-2\" data-v-25b57629> <div class=\"btns col-span-5 flex justify-center my-10\" data-v-25b57629><button class=\"button\" data-v-25b57629>"+((this.$store.getters.lan)?("<span data-v-25b57629>添加原料</span>"):("<span data-v-25b57629>Add ingredients</span>"))+"</button></div></div>")],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"processes px-6 py-5 content-start gap-y-3\" data-v-25b57629>","</div>",[_c('food-method-edit'),_vm._ssrNode(" <textarea name id cols=\"30\" rows=\"8\""+(_vm._ssrAttr("placeholder",_vm.textarea_placeholder))+" class=\"w-full\" data-v-25b57629>"+_vm._ssrEscape(_vm._s(_vm.method_text))+"</textarea> "),_vm._ssrNode("<div class=\"image text-center m-5\" data-v-25b57629>","</div>",[_vm._ssrNode("<p data-v-25b57629>"+((this.$store.getters.lan)?("<span data-v-25b57629>添加图片</span>"):("<span data-v-25b57629>Add Photo</span>"))+"</p> "),_c('image-upload',{on:{"newImage":_vm.newImage}}),_vm._ssrNode(" "),(_vm.image_url)?_c('image-preview',{attrs:{"image_url":_vm.image_url,"image_type":"image"}}):_vm._e()],2),_vm._ssrNode(" <div class=\"btns flex justify-center\" data-v-25b57629><button class=\"button\" data-v-25b57629>"+((this.$store.getters.lan)?("<span data-v-25b57629>添加步骤</span>"):("<span data-v-25b57629>Add Methods</span>"))+"</button></div>")],2),_vm._ssrNode(" <div class=\"submit-btns flex justify-center\" data-v-25b57629><button class=\"button\" data-v-25b57629>"+((this.$store.getters.lan)?("<span data-v-25b57629>确认上传</span>"):("<span data-v-25b57629>comfirm Upload</span>"))+"</button></div>")],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/edit/methodEdit.vue?vue&type=template&id=3452f830&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"font-fonts"},[_vm._ssrNode("<div class=\"ingredients px-6 py-5 content-start gap-y-3 font-fonts md:w-3/4 mx-auto md:px-0\" data-v-3452f830>","</div>",[_vm._ssrNode("<div class=\"ingredient-preview\" data-v-3452f830>","</div>",[_c('food-ingredients-edit')],1),_vm._ssrNode(" <div class=\"ingredient-preview-input grid grid-cols-9 my-3 text-md gap-x-2 ml-2\" data-v-3452f830><div class=\"col-span-1\" data-v-3452f830></div> <input type=\"text\" placeholder=\"Butter\""+(_vm._ssrAttr("value",(_vm.material)))+" class=\"col-span-4\" data-v-3452f830> <input type=\"text\" placeholder=\"150g\""+(_vm._ssrAttr("value",(_vm.amount)))+" class=\"col-span-4\" data-v-3452f830> <div class=\"btns col-span-9 flex justify-center my-10\" data-v-3452f830><button class=\"button\" data-v-3452f830>"+((this.$store.getters.lan)?("<span data-v-3452f830>添加原料</span>"):("<span data-v-3452f830>Add ingredients</span>"))+"</button></div></div>")],2),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"processes w-5/6 mx-auto px-0 py-5 content-start gap-y-3 md:w-3/4\" data-v-3452f830>","</div>",[_c('food-method-edit'),_vm._ssrNode(" <textarea name id cols=\"30\" rows=\"8\""+(_vm._ssrAttr("placeholder",_vm.textarea_placeholder))+" class=\"w-full\" data-v-3452f830>"+_vm._ssrEscape(_vm._s(_vm.method_text))+"</textarea> "),_vm._ssrNode("<div class=\"image text-center m-5\" data-v-3452f830>","</div>",[_vm._ssrNode("<p data-v-3452f830>"+((this.$store.getters.lan)?("<span data-v-3452f830>添加图片</span>"):("<span data-v-3452f830>Add Photo</span>"))+"</p> "),_c('image-upload',{on:{"newImage":_vm.newImage}}),_vm._ssrNode(" "),(_vm.image_url)?_c('image-preview',{staticClass:"h-40 md:w-1/2 mx-auto md:h-56",attrs:{"image_url":_vm.image_url,"image_type":"image"}}):_vm._e()],2),_vm._ssrNode(" <div class=\"btns flex justify-center\" data-v-3452f830><button class=\"button\" data-v-3452f830>"+((this.$store.getters.lan)?("<span data-v-3452f830>添加步骤</span>"):("<span data-v-3452f830>Add Methods</span>"))+"</button></div>")],2),_vm._ssrNode(" <div class=\"submit-btns flex justify-center\" data-v-3452f830><button class=\"button\" data-v-3452f830>"+((this.$store.getters.lan)?("<span data-v-3452f830>确认上传</span>"):("<span data-v-3452f830>comfirm Upload</span>"))+"</button></div>")],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/edit/methodEdit.vue?vue&type=template&id=25b57629&scoped=true&
+// CONCATENATED MODULE: ./components/edit/methodEdit.vue?vue&type=template&id=3452f830&scoped=true&
 
 // EXTERNAL MODULE: ./components/public/imagePreview.vue + 4 modules
 var imagePreview = __webpack_require__(30);
@@ -2134,6 +2144,9 @@ var external_vue_cookies_ = __webpack_require__(3);
 var external_vue_cookies_default = /*#__PURE__*/__webpack_require__.n(external_vue_cookies_);
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/edit/methodEdit.vue?vue&type=script&lang=js&
+//
+//
+//
 //
 //
 //
@@ -2277,7 +2290,7 @@ var external_vue_cookies_default = /*#__PURE__*/__webpack_require__.n(external_v
           }
         }).then(res => {
           console.log(res.data);
-          this.$router.push(`/food/${this.foodId}`);
+          this.$emit('finish', this.foodId);
         }).catch(err => alert(err));
       }
     }
@@ -2320,7 +2333,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "25b57629",
+  "3452f830",
   "aa181416"
   
 )
@@ -2345,12 +2358,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/edit/_editId.vue?vue&type=template&id=b160ed20&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page-background"},[_vm._ssrNode("<div class=\"share-page relative\" data-v-b160ed20>","</div>",[_vm._ssrNode("<div class=\"left\" data-v-b160ed20>","</div>",[_c('side-bar')],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right\" data-v-b160ed20>","</div>",[_vm._ssrNode("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"h-7 w-7 bg-white my-1 ml-2 rounded-sm shadow-md cursor-pointer md:hidden\" data-v-b160ed20><path fill-rule=\"evenodd\" d=\"M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z\" clip-rule=\"evenodd\" data-v-b160ed20></path></svg> "),(_vm.content == 'infoUpload')?_c('food-info-edit',{attrs:{"food":_vm.food}}):_vm._e(),_vm._ssrNode(" "),(_vm.content == 'infoPreview')?_vm._ssrNode("<div class=\"preview md:grid md:grid-cols-2\" data-v-b160ed20>","</div>",[_c('food-photo',{staticClass:"h-h60Screen md:col-span-1 sticky top-0 z-0"}),_vm._ssrNode(" "),_c('food-info-text',{staticClass:"rounded-t-3xl bg-white md:col-span-1 md:sticky md:top-0 md:h-h60Screen z-20 relative md:overflow-hidden"}),_vm._ssrNode(" <div class=\"btns md:col-span-2 flex justify-evenly -mt-3 pt-24 z-20 bg-primary\" data-v-b160ed20><button class=\"button\" data-v-b160ed20>"+((this.$store.getters.lan)?("<span data-v-b160ed20>继续编辑</span>"):("<span data-v-b160ed20>continue edit</span>"))+"</button> <button class=\"button\" data-v-b160ed20>"+((this.$store.getters.lan)?("<span data-v-b160ed20>确认上传</span>"):("<span data-v-b160ed20>confirm</span>"))+"</button></div>")],2):_vm._e(),_vm._ssrNode(" "),(_vm.content == 'methodUpload')?_c('method-edit',{attrs:{"foodId":_vm.foodId}}):_vm._e()],2)],2)])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/edit/_editId.vue?vue&type=template&id=11dd1171&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page-background"},[_vm._ssrNode("<div class=\"share-page relative\" data-v-11dd1171>","</div>",[_vm._ssrNode("<div class=\"left\" data-v-11dd1171>","</div>",[_c('side-bar')],1),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"right\" data-v-11dd1171>","</div>",[_vm._ssrNode("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"h-7 w-7 bg-white my-1 ml-2 rounded-sm shadow-md cursor-pointer md:hidden\" data-v-11dd1171><path fill-rule=\"evenodd\" d=\"M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z\" clip-rule=\"evenodd\" data-v-11dd1171></path></svg> "),(_vm.content == 'infoUpload')?_c('food-info-edit',{attrs:{"food":_vm.food}}):_vm._e(),_vm._ssrNode(" "),(_vm.content == 'infoPreview')?_vm._ssrNode("<div class=\"preview md:grid md:grid-cols-2\" data-v-11dd1171>","</div>",[_c('food-photo',{staticClass:"h-h60Screen md:col-span-1 sticky top-0 z-0"}),_vm._ssrNode(" "),_c('food-info-text',{staticClass:"rounded-t-3xl bg-white md:col-span-1 md:sticky md:top-0 md:h-h60Screen z-20 relative md:overflow-hidden"}),_vm._ssrNode(" <div class=\"btns md:col-span-2 flex justify-evenly -mt-3 pt-24 z-20 bg-primary\" data-v-11dd1171><button class=\"button\" data-v-11dd1171>"+((this.$store.getters.lan)?("<span data-v-11dd1171>继续编辑</span>"):("<span data-v-11dd1171>continue edit</span>"))+"</button> <button class=\"button\" data-v-11dd1171>"+((this.$store.getters.lan)?("<span data-v-11dd1171>确认上传</span>"):("<span data-v-11dd1171>confirm</span>"))+"</button></div>")],2):_vm._e(),_vm._ssrNode(" "),(_vm.content == 'methodUpload')?_c('method-edit',{attrs:{"foodId":_vm.foodId},on:{"finish":_vm.finishEdit}}):_vm._e()],2)],2)])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/edit/_editId.vue?vue&type=template&id=b160ed20&scoped=true&
+// CONCATENATED MODULE: ./pages/edit/_editId.vue?vue&type=template&id=11dd1171&scoped=true&
 
 // EXTERNAL MODULE: external "vue-cookies"
 var external_vue_cookies_ = __webpack_require__(3);
@@ -2448,6 +2461,12 @@ var methodEdit = __webpack_require__(74);
     };
   },
 
+  data() {
+    return {
+      finish: false
+    };
+  },
+
   computed: {
     food() {
       return this.$store.getters.foodInfo_preview;
@@ -2469,14 +2488,20 @@ var methodEdit = __webpack_require__(74);
       this.patchFood();
     },
 
+    finishEdit(data) {
+      this.finish = true;
+      this.$router.push(`/food/${data}`);
+    },
+
     async patchFood() {
       let data = this.foodPreview;
-      data.token = external_vue_cookies_default.a.get('token');
+      data.token = external_vue_cookies_default.a.get("token");
       data.food_id = this.foodId;
+      data.images = data.image;
       console.log(this.foodPreview);
       await this.$axios({
-        url: '/api/foods',
-        method: 'patch',
+        url: "/api/foods",
+        method: "patch",
         data: data
       }).then(res => {
         console.log(res);
@@ -2489,6 +2514,27 @@ var methodEdit = __webpack_require__(74);
   mounted() {
     this.$store.commit("sharePageContentToggle", "infoUpload");
     console.log(this.content);
+  },
+
+  beforeRouteLeave(to, from, next) {
+    if (this.foodPreview == null && this.foodIngredients == null && this.foodMethods == null) {
+      console.log("aaa");
+      next();
+    } else {
+      console.log("bbb");
+
+      if (this.finish == true) {
+        next();
+      } else {
+        const res = confirm("You have not finish your uploading.  Do you make sure to leave this page?");
+
+        if (res == true) {
+          next();
+        } else {
+          next(false);
+        }
+      }
+    }
   }
 
 });
@@ -2514,7 +2560,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "b160ed20",
+  "11dd1171",
   "4176eac8"
   
 )

@@ -40,7 +40,7 @@
             </button>
           </div>
         </div>
-        <method-edit v-if="content == 'methodUpload'" :foodId="foodId"/>
+        <method-edit v-if="content == 'methodUpload'" :foodId="foodId" @finish='finishEdit' />
       </div>
     </div>
   </div>
@@ -53,12 +53,17 @@ import { mapState } from "vuex";
 import FoodInfoEdit from "../../components/edit/foodInfoEdit.vue";
 import FoodInfoText from "../../components/food.vue/foodInfoText.vue";
 import FoodPhoto from "../../components/food.vue/foodPhoto.vue";
-import MethodEdit from '../../components/edit/methodEdit';
+import MethodEdit from "../../components/edit/methodEdit";
 export default {
   components: { sideBar, FoodInfoEdit, FoodInfoText, FoodPhoto, MethodEdit },
   asyncData({ params }) {
     const foodId = params.editId;
     return { foodId };
+  },
+  data() {
+    return {
+      finish:false
+    }
   },
   computed: {
     food() {
@@ -72,29 +77,58 @@ export default {
   methods: {
     cancel() {},
     continueEdit() {
-        this.$store.commit("sharePageContentToggle", "infoUpload");
+      this.$store.commit("sharePageContentToggle", "infoUpload");
     },
     infoComfirm() {
       this.patchFood();
     },
+    finishEdit(data) {
+      this.finish = true;
+      this.$router.push(`/food/${data}`);
+    },
     async patchFood() {
-        let data = this.foodPreview;
-        data.token = cookies.get('token')
-        data.food_id = this.foodId;
-        console.log(this.foodPreview)
-        await this.$axios({
-          url:'/api/foods',
-          method:'patch',
-          data: data
-        }).then((res)=>{
-          console.log(res)
-          this.$store.commit("sharePageContentToggle", "methodUpload");
-        })
-    }
+      let data = this.foodPreview;
+      data.token = cookies.get("token");
+      data.food_id = this.foodId;
+      data.images = data.image;
+      console.log(this.foodPreview);
+      await this.$axios({
+        url: "/api/foods",
+        method: "patch",
+        data: data,
+      }).then((res) => {
+        console.log(res);
+        this.$store.commit("sharePageContentToggle", "methodUpload");
+      });
+    },
   },
   mounted() {
     this.$store.commit("sharePageContentToggle", "infoUpload");
-    console.log(this.content)
+    console.log(this.content);
+  },
+  beforeRouteLeave(to, from, next) {
+    if (
+      this.foodPreview == null &&
+      this.foodIngredients == null &&
+      this.foodMethods == null
+    ) {
+      console.log("aaa");
+      next();
+    } else {
+      console.log("bbb");
+      if (this.finish == true) {
+        next();
+      } else {
+        const res = confirm(
+          "You have not finish your uploading.  Do you make sure to leave this page?"
+        );
+        if (res == true) {
+          next();
+        } else {
+          next(false);
+        }
+      }
+    }
   },
 };
 </script>

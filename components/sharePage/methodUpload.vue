@@ -89,9 +89,12 @@ export default {
   },
   methods: {
     add_material() {
-      this.ingredient_preview = JSON.parse(
-        JSON.stringify(this.$store.state.foodIngredients_temp)
-      );
+      this.ingredient_preview = JSON.parse(JSON.stringify(this.$store.state.foodIngredients_temp));
+      console.log(this.ingredient_preview)
+      if(this.ingredient_preview == null){
+        console.log('aa')
+        this.ingredient_preview = '';
+      }
       this.ingredient_preview += `${this.material}<###**%%###>${this.amount}<###**^^###>`;
       this.material = this.amount = "";
       this.$store.commit("foodIngredients_temp_Edit", this.ingredient_preview);
@@ -103,6 +106,10 @@ export default {
     },
     addMethod(){
       this.methods_preview = JSON.parse(JSON.stringify(this.$store.state.foodMethods_temp));
+      console.log(this.methods_preview)
+       if(this.methods_preview == null){
+        this.methods_preview = '';
+      }
       this.methods_preview += `${this.method_text}<###**%%###>${this.image_url}<###**^^###>`;
       this.method_text = this.image_url = '';
       this.$store.commit('foodMethods_temp_Edit', this.methods_preview);
@@ -131,7 +138,8 @@ export default {
           }
         }).then((res)=>{
           console.log(res.data);
-          this.$router.push(`/food/${this.foodId}`);
+          this.$emit('finish',this.foodId)
+          
         }).catch((err)=> alert(err));
       }
     }

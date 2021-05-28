@@ -41,7 +41,7 @@
             </button>
           </div>
         </div>
-        <method-upload v-if="content == 'methodUpload'" />
+        <method-upload v-if="content == 'methodUpload'" @finish='finishUpload' />
       </div>
     </div>
   </div>
@@ -65,8 +65,8 @@ export default {
   },
   data() {
     return {
-      finish: true
-    }
+      finish: false,
+    };
   },
   props: {
     image_type: {
@@ -110,9 +110,13 @@ export default {
         })
         .catch((error) => alert(error));
     },
+    finishUpload(data) {
+      this.finish = true;
+      this.$router.push(`/food/${data}`);
+    }
   },
   mounted() {
-    // this.$store.commit("sharePageContentToggle", "infoUpload");
+    this.$store.commit("sharePageContentToggle", "infoUpload");
     this.$store.commit("foodInfo_temp_Edit", null);
     this.$store.commit("foodIngredients_temp_Edit", null);
     this.$store.commit("foodMethods_temp_Edit", null);
@@ -122,21 +126,25 @@ export default {
     console.log(this.foodIngredients);
     console.log(this.foodMethods);
     if (
-      (this.foodPreview == null &&
+      this.foodPreview == null &&
       this.foodIngredients == null &&
-      this.foodMethods == null) || this.finish == true
+      this.foodMethods == null
     ) {
-      console.log("aaa")
+      console.log("aaa");
       next();
     } else {
-      console.log('bbb')
-      const res = confirm(
-        "You have not finish your uploading.  Do you make sure to leave this page?"
-      );
-      if (res == true) {
+      console.log("bbb");
+      if (this.finish == true) {
         next();
       } else {
-        next(false);
+        const res = confirm(
+          "You have not finish your uploading.  Do you make sure to leave this page?"
+        );
+        if (res == true) {
+          next();
+        } else {
+          next(false);
+        }
       }
     }
   },

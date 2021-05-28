@@ -3,70 +3,60 @@
     "name": "about",
     "path": "/about",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\about.vue",
-    "chunkName": "pages/about",
-    "_name": "_7cc93c99"
+    "chunkName": "pages/about"
   },
   {
     "name": "login",
     "path": "/login",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\login.vue",
-    "chunkName": "pages/login",
-    "_name": "_6628ba75"
+    "chunkName": "pages/login"
   },
   {
     "name": "setting",
     "path": "/setting",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\setting.vue",
-    "chunkName": "pages/setting",
-    "_name": "_6830a0dc"
+    "chunkName": "pages/setting"
   },
   {
     "name": "share",
     "path": "/share",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\share.vue",
-    "chunkName": "pages/share",
-    "_name": "_6e56efeb"
+    "chunkName": "pages/share"
   },
   {
     "name": "search-result",
     "path": "/search/result",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\search\\\\result.vue",
-    "chunkName": "pages/search/result",
-    "_name": "_be33522e"
+    "chunkName": "pages/search/result"
   },
   {
     "name": "search-tag",
     "path": "/search/tag",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\search\\\\tag.vue",
-    "chunkName": "pages/search/tag",
-    "_name": "_7095fefe"
+    "chunkName": "pages/search/tag"
   },
   {
     "name": "edit-editId",
     "path": "/edit/:editId?",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\edit\\\\_editId.vue",
-    "chunkName": "pages/edit/_editId",
-    "_name": "_358ff226"
+    "chunkName": "pages/edit/_editId"
   },
   {
     "name": "food-foodId",
     "path": "/food/:foodId?",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\food\\\\_foodId.vue",
-    "chunkName": "pages/food/_foodId",
-    "_name": "_ae3868b4"
+    "chunkName": "pages/food/_foodId"
   },
   {
     "name": "user-userId",
     "path": "/user/:userId?",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\user\\\\_userId.vue",
-    "chunkName": "pages/user/_userId",
-    "_name": "_37d8ff06"
+    "chunkName": "pages/user/_userId"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Taylo\\\\Desktop\\\\Projects\\\\food_delicious_nuxt\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_c6fdd144"
+    "chunkName": "pages/index"
   }
 ]

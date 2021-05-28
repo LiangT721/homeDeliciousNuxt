@@ -1,7 +1,7 @@
 <template>
   <div class="py-5 content-start gap-y-3 font-fonts">
     <p class="food-name text-3xl font-bold mb-5">Methods:</p>
-    <div class="mb-5 bg-white p-5 shadow-md rounded-xl md:px-8 md:py-3" v-for="process in processes" :key="process.id">
+    <div class="mb-5 bg-white p-5 shadow-md rounded-xl md:px-8 md:py-3 " v-for="process in processes" :key="process.id">
       <p class="uppercase text-center text-xl mb-8 font-semibold relative md:mb-3">
         Step : {{ process.id + 1 }}
         <span class="absolute right-0 cursor-pointer text-shadow"

@@ -31,36 +31,43 @@ export default {
   data() {
     return {
       bg_photo: "",
-      photoList:{},
+      photoList: {},
     };
   },
-  watch:{
-      food(newValue){
-        console.log(newValue)
-        this.photoList = newValue.image;
-        console.log(this.photoList)
-        this.bg_photo = this.photoList[0].url    
-      }
+  watch: {
+    food(newValue) {
+      console.log(newValue);
+      this.photoList = newValue.image;
+      console.log(this.photoList);
+      this.bg_photo = this.photoList[0].url;
+    },
   },
   methods: {
-      select(index) {
-          for(let photo of this.photoList){
-              if(photo.id == index){
-                  this.bg_photo = photo.url
-              }
-          }
+    select(index) {
+      for (let photo of this.photoList) {
+        if (photo.id == index) {
+          this.bg_photo = photo.url;
+        }
       }
+    },
   },
   computed: {
     food() {
-      return this.$store.getters.foodInfo_preview
-    }
+      return this.$store.getters.foodInfo_preview;
+    },
   },
-  mounted () {
+  mounted() {
     console.log(this.food.image);
-        this.photoList = this.food.image;
-        this.bg_photo = this.photoList[0].url    
-      
+    console.log(this.food.image.length);
+    if (this.food.image.length == 0) {
+      this.photoList = [
+        {url:"https://homedelicious.ml/img/uploadImgs/2021526_undefined_default.jpg"},
+      ];
+    } else {
+      this.photoList = this.food.image;
+    }
+    console.log(this.photoList);
+    this.bg_photo = this.photoList[0].url;
   },
 };
 </script>

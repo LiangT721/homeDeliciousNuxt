@@ -5,6 +5,9 @@
   "EditMethodEdit": {
     "description": "Auto imported from components/edit/methodEdit.vue"
   },
+  "LoginPageSignUp": {
+    "description": "Auto imported from components/loginPage/signUp.vue"
+  },
   "FoodVueCookwayIcon": {
     "description": "Auto imported from components/food.vue/cookwayIcon.vue"
   },
@@ -28,9 +31,6 @@
   },
   "HomePageTrendList": {
     "description": "Auto imported from components/homePage/trendList.vue"
-  },
-  "LoginPageSignUp": {
-    "description": "Auto imported from components/loginPage/signUp.vue"
   },
   "PublicBottomBar": {
     "description": "Auto imported from components/public/bottomBar.vue"

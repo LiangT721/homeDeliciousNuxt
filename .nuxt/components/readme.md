@@ -8,6 +8,7 @@ You can directly use them in pages and other components without the need to impo
 
 - `<EditFoodInfoEdit>` | `<edit-food-info-edit>` (components/edit/foodInfoEdit.vue)
 - `<EditMethodEdit>` | `<edit-method-edit>` (components/edit/methodEdit.vue)
+- `<LoginPageSignUp>` | `<login-page-sign-up>` (components/loginPage/signUp.vue)
 - `<FoodVueCookwayIcon>` | `<food-vue-cookway-icon>` (components/food.vue/cookwayIcon.vue)
 - `<FoodInfoText>` | `<food-info-text>` (components/food.vue/foodInfoText.vue)
 - `<FoodIngredients>` | `<food-ingredients>` (components/food.vue/foodIngredients.vue)
@@ -16,7 +17,6 @@ You can directly use them in pages and other components without the need to impo
 - `<FoodVueRateGrade>` | `<food-vue-rate-grade>` (components/food.vue/rateGrade.vue)
 - `<HomePageSelectionBar>` | `<home-page-selection-bar>` (components/homePage/selectionBar.vue)
 - `<HomePageTrendList>` | `<home-page-trend-list>` (components/homePage/trendList.vue)
-- `<LoginPageSignUp>` | `<login-page-sign-up>` (components/loginPage/signUp.vue)
 - `<PublicBottomBar>` | `<public-bottom-bar>` (components/public/bottomBar.vue)
 - `<PublicCardList>` | `<public-card-list>` (components/public/cardList.vue)
 - `<PublicCollection>` | `<public-collection>` (components/public/collection.vue)

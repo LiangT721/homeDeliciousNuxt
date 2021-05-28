@@ -2337,6 +2337,7 @@ function wrapFunctional(options) {
 const components = {
   EditFoodInfoEdit: () => __webpack_require__.e(/* import() | components/edit-food-info-edit */ 1).then(__webpack_require__.bind(null, 73)).then(c => wrapFunctional(c.default || c)),
   EditMethodEdit: () => __webpack_require__.e(/* import() | components/edit-method-edit */ 2).then(__webpack_require__.bind(null, 74)).then(c => wrapFunctional(c.default || c)),
+  LoginPageSignUp: () => __webpack_require__.e(/* import() | components/login-page-sign-up */ 11).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c)),
   FoodVueCookwayIcon: () => __webpack_require__.e(/* import() | components/food-vue-cookway-icon */ 7).then(__webpack_require__.bind(null, 49)).then(c => wrapFunctional(c.default || c)),
   FoodInfoText: () => __webpack_require__.e(/* import() | components/food-info-text */ 3).then(__webpack_require__.bind(null, 47)).then(c => wrapFunctional(c.default || c)),
   FoodIngredients: () => __webpack_require__.e(/* import() | components/food-ingredients */ 4).then(__webpack_require__.bind(null, 60)).then(c => wrapFunctional(c.default || c)),
@@ -2345,7 +2346,6 @@ const components = {
   FoodVueRateGrade: () => __webpack_require__.e(/* import() | components/food-vue-rate-grade */ 8).then(__webpack_require__.bind(null, 75)).then(c => wrapFunctional(c.default || c)),
   HomePageSelectionBar: () => __webpack_require__.e(/* import() | components/home-page-selection-bar */ 9).then(__webpack_require__.bind(null, 76)).then(c => wrapFunctional(c.default || c)),
   HomePageTrendList: () => __webpack_require__.e(/* import() | components/home-page-trend-list */ 10).then(__webpack_require__.bind(null, 77)).then(c => wrapFunctional(c.default || c)),
-  LoginPageSignUp: () => __webpack_require__.e(/* import() | components/login-page-sign-up */ 11).then(__webpack_require__.bind(null, 65)).then(c => wrapFunctional(c.default || c)),
   PublicBottomBar: () => __webpack_require__.e(/* import() | components/public-bottom-bar */ 12).then(__webpack_require__.bind(null, 43)).then(c => wrapFunctional(c.default || c)),
   PublicCardList: () => __webpack_require__.e(/* import() | components/public-card-list */ 13).then(__webpack_require__.bind(null, 72)).then(c => wrapFunctional(c.default || c)),
   PublicCollection: () => __webpack_require__.e(/* import() | components/public-collection */ 14).then(__webpack_require__.bind(null, 27)).then(c => wrapFunctional(c.default || c)),

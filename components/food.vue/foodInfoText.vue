@@ -51,7 +51,7 @@
       by {{ food.username }}
       <img class="h-6 ml-3 rounded-round" :src="food.icon" alt="" />
     </div>
-    <div class="description col-span-6 text-lg font-thin text-justify">
+    <div class="description col-span-6 text-lg font-thin text-justify md:h-60 md:overflow-auto">
       {{ food.food_description }}
     </div>
     <div

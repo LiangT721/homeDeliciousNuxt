@@ -106,7 +106,11 @@ export default {
       return this.$store.getters.lan;
     },
     checkUser() {
-      return Boolean(cookies.get("user").user_id == this.ShowFood.user_id);
+      if (cookies.get("user")) {
+        return Boolean(cookies.get("user").user_id == this.ShowFood.user_id);
+      } else {
+        return false;
+      }
     },
   },
   async asyncData({ params }) {
@@ -136,7 +140,6 @@ export default {
       const res = await this.$axios.get("/api/methods", {
         params,
       });
-      console.log(res.data);
       if (res.data.ingredient == "" && res.data.process == "") {
         this.MethodsDisplay = false;
       }

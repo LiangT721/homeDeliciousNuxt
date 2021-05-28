@@ -856,12 +856,12 @@ webpackContext.id = 46;
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodInfoText.vue?vue&type=template&id=78df7c86&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"grid grid-cols-6 px-6 py-5 content-start gap-y-3 font-fonts relative"},[(_vm.checkUser)?_vm._ssrNode("<div class=\"edit-option absolute right-5 top-16\" data-v-78df7c86>","</div>",[_vm._ssrNode("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"h-6 w-6 text-shadow\" style=\"text-shadow: 5px 5px 5px black\" data-v-78df7c86><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z\" clip-rule=\"evenodd\" data-v-78df7c86></path></svg> "),_c('transition',{attrs:{"name":"fade"}},[(_vm.option_appear)?_c('div',{staticClass:"option uppercase bg-primary absolute right-0 rounded-md shadow-lg text-center"},[_c('p',{staticClass:"hover:bg-white p-2",on:{"click":function($event){return _vm.toEditPage()}}},[(this.$store.getters.lan)?_c('span',[_vm._v("修改")]):_c('span',[_vm._v("edit")])]),_vm._v(" "),_c('p',{staticClass:"hover:bg-white p-2",on:{"click":_vm.deleteFood}},[(this.$store.getters.lan)?_c('span',[_vm._v("删除")]):_c('span',[_vm._v("delete")])])]):_vm._e()])],2):_vm._e(),_vm._ssrNode(" "),_c('grade',{staticClass:"col-span-4",attrs:{"grade":_vm.food.grade,"icon_size":"text-2xl"}}),_vm._ssrNode(" "),_c('collection',{staticClass:"col-span-2",attrs:{"food":_vm.food}}),_vm._ssrNode(" <p class=\"food-name col-span-5 text-3xl font-bold\" data-v-78df7c86>"+_vm._ssrEscape(_vm._s(_vm.food.food_name))+"</p> <div class=\"tags col-span-4 flex justify-between text-lg text-fontColordark\" data-v-78df7c86><p data-v-78df7c86>"+_vm._ssrEscape(_vm._s(_vm.food.food_location))+"</p> <p data-v-78df7c86>"+_vm._ssrEscape(_vm._s(_vm.food.food_category))+"</p> <p data-v-78df7c86>"+_vm._ssrEscape(_vm._s(_vm.food.tag))+"</p></div> <div class=\"users col-span-6 flex text-lg font-semibold\" data-v-78df7c86>"+_vm._ssrEscape("\n    by "+_vm._s(_vm.food.username)+"\n    ")+"<img"+(_vm._ssrAttr("src",_vm.food.icon))+" alt class=\"h-6 ml-3 rounded-round\" data-v-78df7c86></div> <div class=\"description col-span-6 text-lg font-thin text-justify\" data-v-78df7c86>"+_vm._ssrEscape("\n    "+_vm._s(_vm.food.food_description)+"\n  ")+"</div> "),_vm._ssrNode("<div class=\"cooking-icons col-span-6 flex justify-between md:justify-around font-semibold\" data-v-78df7c86>","</div>",[_c('cookway-icon',{staticClass:"cooking-icon",attrs:{"cooking_way":_vm.food.cooking_way}}),_vm._ssrNode(" <p class=\"cooking-icon text-center grid content-center\" data-v-78df7c86>"+_vm._ssrEscape("\n      "+_vm._s(_vm.food.cooking_time)+"MIN\n    ")+"</p> <div class=\"cooking-icon text-center grid content-center\" data-v-78df7c86>"+_vm._ssrEscape("\n      "+_vm._s(_vm.food.difficulty)+"\n    ")+"</div>")],2)],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodInfoText.vue?vue&type=template&id=6ca8e1fb&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"grid grid-cols-6 px-6 py-5 content-start gap-y-3 font-fonts relative"},[(_vm.checkUser)?_vm._ssrNode("<div class=\"edit-option absolute right-5 top-16\" data-v-6ca8e1fb>","</div>",[_vm._ssrNode("<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 20 20\" fill=\"currentColor\" class=\"h-6 w-6 text-shadow\" style=\"text-shadow: 5px 5px 5px black\" data-v-6ca8e1fb><path fill-rule=\"evenodd\" d=\"M10 18a8 8 0 100-16 8 8 0 000 16zM7 9H5v2h2V9zm8 0h-2v2h2V9zM9 9h2v2H9V9z\" clip-rule=\"evenodd\" data-v-6ca8e1fb></path></svg> "),_c('transition',{attrs:{"name":"fade"}},[(_vm.option_appear)?_c('div',{staticClass:"option uppercase bg-primary absolute right-0 rounded-md shadow-lg text-center"},[_c('p',{staticClass:"hover:bg-white p-2",on:{"click":function($event){return _vm.toEditPage()}}},[(this.$store.getters.lan)?_c('span',[_vm._v("修改")]):_c('span',[_vm._v("edit")])]),_vm._v(" "),_c('p',{staticClass:"hover:bg-white p-2",on:{"click":_vm.deleteFood}},[(this.$store.getters.lan)?_c('span',[_vm._v("删除")]):_c('span',[_vm._v("delete")])])]):_vm._e()])],2):_vm._e(),_vm._ssrNode(" "),_c('grade',{staticClass:"col-span-4",attrs:{"grade":_vm.food.grade,"icon_size":"text-2xl"}}),_vm._ssrNode(" "),_c('collection',{staticClass:"col-span-2",attrs:{"food":_vm.food}}),_vm._ssrNode(" <p class=\"food-name col-span-5 text-3xl font-bold\" data-v-6ca8e1fb>"+_vm._ssrEscape(_vm._s(_vm.food.food_name))+"</p> <div class=\"tags col-span-4 flex justify-between text-lg text-fontColordark\" data-v-6ca8e1fb><p data-v-6ca8e1fb>"+_vm._ssrEscape(_vm._s(_vm.food.food_location))+"</p> <p data-v-6ca8e1fb>"+_vm._ssrEscape(_vm._s(_vm.food.food_category))+"</p> <p data-v-6ca8e1fb>"+_vm._ssrEscape(_vm._s(_vm.food.tag))+"</p></div> <div class=\"users col-span-6 flex text-lg font-semibold\" data-v-6ca8e1fb>"+_vm._ssrEscape("\n    by "+_vm._s(_vm.food.username)+"\n    ")+"<img"+(_vm._ssrAttr("src",_vm.food.icon))+" alt class=\"h-6 ml-3 rounded-round\" data-v-6ca8e1fb></div> <div class=\"description col-span-6 text-lg font-thin text-justify md:h-60 md:overflow-auto\" data-v-6ca8e1fb>"+_vm._ssrEscape("\n    "+_vm._s(_vm.food.food_description)+"\n  ")+"</div> "),_vm._ssrNode("<div class=\"cooking-icons col-span-6 flex justify-between md:justify-around font-semibold\" data-v-6ca8e1fb>","</div>",[_c('cookway-icon',{staticClass:"cooking-icon",attrs:{"cooking_way":_vm.food.cooking_way}}),_vm._ssrNode(" <p class=\"cooking-icon text-center grid content-center\" data-v-6ca8e1fb>"+_vm._ssrEscape("\n      "+_vm._s(_vm.food.cooking_time)+"MIN\n    ")+"</p> <div class=\"cooking-icon text-center grid content-center\" data-v-6ca8e1fb>"+_vm._ssrEscape("\n      "+_vm._s(_vm.food.difficulty)+"\n    ")+"</div>")],2)],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/food.vue/foodInfoText.vue?vue&type=template&id=78df7c86&scoped=true&
+// CONCATENATED MODULE: ./components/food.vue/foodInfoText.vue?vue&type=template&id=6ca8e1fb&scoped=true&
 
 // EXTERNAL MODULE: ./components/public/collection.vue + 4 modules
 var collection = __webpack_require__(27);
@@ -1024,7 +1024,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "78df7c86",
+  "6ca8e1fb",
   "52a21612"
   
 )
@@ -1040,12 +1040,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodPhoto.vue?vue&type=template&id=2e1b57fe&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_vm._ssrNode("<div class=\"background-photo h-full relative\" data-v-2e1b57fe><img"+(_vm._ssrAttr("src",_vm.bg_photo))+" alt srcset class=\"h-full w-full object-cover\" data-v-2e1b57fe> <div class=\"photo-list h-1/6 justify-center flex min-w-full absolute bottom-0 overflow-x-scroll overflow-y-hidden whitespace-nowrap\" data-v-2e1b57fe>"+(_vm._ssrList((_vm.photoList),function(photo){return ("<img"+(_vm._ssrAttr("src",photo.url))+" alt class=\"h-full mr-2 z-10 transition\" data-v-2e1b57fe>")}))+" <div class=\"w-full h-full absolute bottom-0 z-0 bg-gray-900 opacity-80\" data-v-2e1b57fe></div></div></div>")])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodPhoto.vue?vue&type=template&id=73f49ac6&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{},[_vm._ssrNode("<div class=\"background-photo h-full relative\" data-v-73f49ac6><img"+(_vm._ssrAttr("src",_vm.bg_photo))+" alt srcset class=\"h-full w-full object-cover\" data-v-73f49ac6> <div class=\"photo-list h-1/6 justify-center flex min-w-full absolute bottom-0 overflow-x-scroll overflow-y-hidden whitespace-nowrap\" data-v-73f49ac6>"+(_vm._ssrList((_vm.photoList),function(photo){return ("<img"+(_vm._ssrAttr("src",photo.url))+" alt class=\"h-full mr-2 z-10 transition\" data-v-73f49ac6>")}))+" <div class=\"w-full h-full absolute bottom-0 z-0 bg-gray-900 opacity-80\" data-v-73f49ac6></div></div></div>")])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/food.vue/foodPhoto.vue?vue&type=template&id=2e1b57fe&scoped=true&
+// CONCATENATED MODULE: ./components/food.vue/foodPhoto.vue?vue&type=template&id=73f49ac6&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodPhoto.vue?vue&type=script&lang=js&
 //
@@ -1112,7 +1112,17 @@ var staticRenderFns = []
 
   mounted() {
     console.log(this.food.image);
-    this.photoList = this.food.image;
+    console.log(this.food.image.length);
+
+    if (this.food.image.length == 0) {
+      this.photoList = [{
+        url: "https://homedelicious.ml/img/uploadImgs/2021526_undefined_default.jpg"
+      }];
+    } else {
+      this.photoList = this.food.image;
+    }
+
+    console.log(this.photoList);
     this.bg_photo = this.photoList[0].url;
   }
 
@@ -1139,7 +1149,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "2e1b57fe",
+  "73f49ac6",
   "58729d34"
   
 )
@@ -1254,9 +1264,9 @@ var component = Object(componentNormalizer["a" /* default */])(
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44);
-/* harmony import */ var _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
-/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_78df7c86_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(44);
+/* harmony import */ var _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__) if(["default"].indexOf(__WEBPACK_IMPORT_KEY__) < 0) (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_nuxt_postcss8_node_modules_css_loader_dist_cjs_js_ref_3_oneOf_1_0_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_nuxt_postcss8_node_modules_postcss_loader_dist_cjs_js_ref_3_oneOf_1_1_node_modules_nuxt_components_dist_loader_js_ref_0_0_node_modules_vue_loader_lib_index_js_vue_loader_options_foodInfoText_vue_vue_type_style_index_0_id_6ca8e1fb_lang_css_scoped_true___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
 
 
 /***/ }),
@@ -1333,12 +1343,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodMethods.vue?vue&type=template&id=6926f6f6&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"px-6 py-5 content-start gap-y-3 font-fonts"},[_vm._ssrNode("<p class=\"food-name text-3xl font-bold mb-5\" data-v-6926f6f6>Methods:</p> "+(_vm._ssrList((_vm.processes),function(process){return ("<div class=\"mb-5 bg-primary py-5 px-6 shadow-md rounded-xl md:px-8 md:py-3 md:bg-opacity-0 md:shadow-none\" data-v-6926f6f6><p class=\"uppercase text-center text-xl mb-8 font-semibold relative md:mb-3\" data-v-6926f6f6>"+_vm._ssrEscape("\n      Step:"+_vm._s(process.id + 1)+"\n    ")+"</p> <div class=\"md:grid md:grid-cols-3 md:items-start md:w-full md:mx-auto md:h-40  md:rounded-md overflow-hidden md:shadow-xl\" data-v-6926f6f6>"+((process.img)?("<img"+(_vm._ssrAttr("src",process.img))+" alt"+(_vm._ssrClass("h-48 overflow-hidden  w-full object-cover md:h-full md:col-span-1",process.order))+" data-v-6926f6f6>"):"<!---->")+" <p class=\"font-fonts font-semibold w-full text-justify mx-auto h-auto mt-5 p-3 md:h-full md:col-span-2 md:order-1 md:mt-0\" data-v-6926f6f6>"+_vm._ssrEscape("\n        "+_vm._s(process.text)+"\n      ")+"</p></div></div>")})))])}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodMethods.vue?vue&type=template&id=716fd2f1&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"px-6 py-5 content-start gap-y-3 font-fonts"},[_vm._ssrNode("<p class=\"food-name text-3xl font-bold mb-5\" data-v-716fd2f1>Methods:</p> "+(_vm._ssrList((_vm.processes),function(process){return ("<div class=\"mb-5 bg-primary py-5 px-6 shadow-md rounded-xl md:px-8 md:py-3 md:bg-opacity-0 md:shadow-none\" data-v-716fd2f1><p class=\"uppercase text-center text-xl mb-8 font-semibold relative md:mb-3\" data-v-716fd2f1>"+_vm._ssrEscape("\n      Step:"+_vm._s(process.id + 1)+"\n    ")+"</p> <div class=\"md:grid md:grid-cols-3 md:items-start md:w-full md:mx-auto md:h-40  md:rounded-md overflow-hidden md:shadow-xl md:bg-primary\" data-v-716fd2f1>"+((process.img)?("<img"+(_vm._ssrAttr("src",process.img))+" alt"+(_vm._ssrClass("h-48 overflow-hidden  w-full object-cover md:h-full md:col-span-1",process.order))+" data-v-716fd2f1>"):"<!---->")+" <p class=\"font-fonts font-semibold w-full text-justify mx-auto h-auto mt-5 p-3 md:h-full md:col-span-2 md:order-1 md:mt-0 md:p-5\" data-v-716fd2f1>"+_vm._ssrEscape("\n        "+_vm._s(process.text)+"\n      ")+"</p></div></div>")})))])}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./components/food.vue/foodMethods.vue?vue&type=template&id=6926f6f6&scoped=true&
+// CONCATENATED MODULE: ./components/food.vue/foodMethods.vue?vue&type=template&id=716fd2f1&scoped=true&
 
 // CONCATENATED MODULE: ./node_modules/babel-loader/lib??ref--2-0!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./components/food.vue/foodMethods.vue?vue&type=script&lang=js&
 //
@@ -1367,10 +1377,8 @@ var staticRenderFns = []
   },
   watch: {
     processes(newValue) {
-      console.log(newValue);
       newValue.map((value, index) => {
         value.order = `md:order-${value.id % 2 + 1}`;
-        console.log(value);
       });
     }
 
@@ -1398,7 +1406,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "6926f6f6",
+  "716fd2f1",
   "780df034"
   
 )
@@ -1562,12 +1570,12 @@ var component = Object(componentNormalizer["a" /* default */])(
 // ESM COMPAT FLAG
 __webpack_require__.r(__webpack_exports__);
 
-// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/food/_foodId.vue?vue&type=template&id=67f6897c&scoped=true&
-var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page-background"},[_vm._ssrNode("<div class=\"page\" data-v-67f6897c>","</div>",[_vm._ssrNode("<div class=\"left\" data-v-67f6897c>","</div>",[_c('side-bar')],1),_vm._ssrNode(" "),(_vm.loading)?_vm._ssrNode("<div class=\"right md:grid md:grid-cols-2 -mb-4\" data-v-67f6897c>","</div>",[_vm._ssrNode("<div class=\"back fixed z-10 md:hidden\" data-v-67f6897c><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" class=\"h-10 w-10 bg-gray-200 rounded-lg shadow-2xl m-3 cursor-pointer\" data-v-67f6897c><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z\" data-v-67f6897c></path></svg></div> "),_c('food-photo',{staticClass:"h-h60Screen md:col-span-1 sticky top-0 z-0"}),_vm._ssrNode(" "),_c('food-info-text',{staticClass:"rounded-t-3xl bg-white md:col-span-1 md:sticky md:top-0 md:h-h60Screen z-20 relative",attrs:{"checkUser":_vm.checkUser}}),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"methods-part bg-white md:col-span-2 z-20 relative -top-4 py-10 md:-top-8\" data-v-67f6897c>","</div>",[(_vm.MethodsDisplay)?_vm._ssrNode("<div class=\"md:w-3/4 mx-auto\" data-v-67f6897c>","</div>",[(_vm.ingredientDisplay)?_c('food-ingredients',{attrs:{"ingredients":_vm.MethodsData.ingredient}}):_vm._e(),_vm._ssrNode(" "),(_vm.processDisplay)?_c('food-methods',{attrs:{"processes":_vm.MethodsData.process}}):_vm._e()],2):_vm._ssrNode(("<div class=\"text-center py-10 text-xl font-fonts\" data-v-67f6897c>"+((_vm.checkUser)?("<div data-v-67f6897c>"+((_vm.lan)?("<span data-v-67f6897c>你还没有分享他的制作方法</span>"):("<span data-v-67f6897c>You haven't shared your recipe</span>"))+"</div>"):("<div data-v-67f6897c>"+((_vm.lan)?("<span data-v-67f6897c>作者还没有分享他的制作方法</span>"):("<span data-v-67f6897c>Author hasn't shared the recipe</span>"))+"</div>"))+" "+((_vm.checkUser)?("<button class=\"button my-10\" data-v-67f6897c>"+((_vm.lan)?("<span data-v-67f6897c>分享你的的制作方法</span>"):("<span data-v-67f6897c>Shared your recipe</span>"))+"</button>"):"<!---->")+"</div>")),_vm._ssrNode(" <div class=\"splitter h-splitter bg-gray-300 w-11/12 mb-10 mx-auto\" data-v-67f6897c></div> "),_c('rate-grade',{attrs:{"food":_vm.ShowFood}})],2)],2):_vm._e()],2),_vm._ssrNode(" "),_c('bottom-bar')],2)}
+// CONCATENATED MODULE: ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/@nuxt/components/dist/loader.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./pages/food/_foodId.vue?vue&type=template&id=a4facba6&scoped=true&
+var render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{staticClass:"page-background"},[_vm._ssrNode("<div class=\"page\" data-v-a4facba6>","</div>",[_vm._ssrNode("<div class=\"left\" data-v-a4facba6>","</div>",[_c('side-bar')],1),_vm._ssrNode(" "),(_vm.loading)?_vm._ssrNode("<div class=\"right md:grid md:grid-cols-2 -mb-4\" data-v-a4facba6>","</div>",[_vm._ssrNode("<div class=\"back fixed z-10 md:hidden\" data-v-a4facba6><svg xmlns=\"http://www.w3.org/2000/svg\" fill=\"none\" viewBox=\"0 0 24 24\" stroke=\"currentColor\" class=\"h-10 w-10 bg-gray-200 rounded-lg shadow-2xl m-3 cursor-pointer\" data-v-a4facba6><path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.333 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z\" data-v-a4facba6></path></svg></div> "),_c('food-photo',{staticClass:"h-h60Screen md:col-span-1 sticky top-0 z-0"}),_vm._ssrNode(" "),_c('food-info-text',{staticClass:"rounded-t-3xl bg-white md:col-span-1 md:sticky md:top-0 md:h-h60Screen z-20 relative",attrs:{"checkUser":_vm.checkUser}}),_vm._ssrNode(" "),_vm._ssrNode("<div class=\"methods-part bg-white md:col-span-2 z-20 relative -top-4 py-10 md:-top-8\" data-v-a4facba6>","</div>",[(_vm.MethodsDisplay)?_vm._ssrNode("<div class=\"md:w-3/4 mx-auto\" data-v-a4facba6>","</div>",[(_vm.ingredientDisplay)?_c('food-ingredients',{attrs:{"ingredients":_vm.MethodsData.ingredient}}):_vm._e(),_vm._ssrNode(" "),(_vm.processDisplay)?_c('food-methods',{attrs:{"processes":_vm.MethodsData.process}}):_vm._e()],2):_vm._ssrNode(("<div class=\"text-center py-10 text-xl font-fonts\" data-v-a4facba6>"+((_vm.checkUser)?("<div data-v-a4facba6>"+((_vm.lan)?("<span data-v-a4facba6>你还没有分享他的制作方法</span>"):("<span data-v-a4facba6>You haven't shared your recipe</span>"))+"</div>"):("<div data-v-a4facba6>"+((_vm.lan)?("<span data-v-a4facba6>作者还没有分享他的制作方法</span>"):("<span data-v-a4facba6>Author hasn't shared the recipe</span>"))+"</div>"))+" "+((_vm.checkUser)?("<button class=\"button my-10\" data-v-a4facba6>"+((_vm.lan)?("<span data-v-a4facba6>分享你的的制作方法</span>"):("<span data-v-a4facba6>Shared your recipe</span>"))+"</button>"):"<!---->")+"</div>")),_vm._ssrNode(" <div class=\"splitter h-splitter bg-gray-300 w-11/12 mb-10 mx-auto\" data-v-a4facba6></div> "),_c('rate-grade',{attrs:{"food":_vm.ShowFood}})],2)],2):_vm._e()],2),_vm._ssrNode(" "),_c('bottom-bar')],2)}
 var staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./pages/food/_foodId.vue?vue&type=template&id=67f6897c&scoped=true&
+// CONCATENATED MODULE: ./pages/food/_foodId.vue?vue&type=template&id=a4facba6&scoped=true&
 
 // EXTERNAL MODULE: ./components/food.vue/foodInfoText.vue + 4 modules
 var foodInfoText = __webpack_require__(47);
@@ -1705,7 +1713,11 @@ var external_vue_cookies_default = /*#__PURE__*/__webpack_require__.n(external_v
     },
 
     checkUser() {
-      return Boolean(external_vue_cookies_default.a.get("user").user_id == this.ShowFood.user_id);
+      if (external_vue_cookies_default.a.get("user")) {
+        return Boolean(external_vue_cookies_default.a.get("user").user_id == this.ShowFood.user_id);
+      } else {
+        return false;
+      }
     }
 
   },
@@ -1744,7 +1756,6 @@ var external_vue_cookies_default = /*#__PURE__*/__webpack_require__.n(external_v
       const res = await this.$axios.get("/api/methods", {
         params
       });
-      console.log(res.data);
 
       if (res.data.ingredient == "" && res.data.process == "") {
         this.MethodsDisplay = false;
@@ -1792,7 +1803,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   staticRenderFns,
   false,
   injectStyles,
-  "67f6897c",
+  "a4facba6",
   "52d38b20"
   
 )

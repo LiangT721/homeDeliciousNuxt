@@ -1,25 +1,26 @@
 <template>
   <div class="font-fonts">
-    <div class="ingredients px-6 py-5 content-start gap-y-3 font-fonts">
+    <div class="ingredients px-6 py-5 content-start gap-y-3 font-fonts md:w-3/4 mx-auto md:px-0">
       <div class="ingredient-preview">
         <food-ingredients-edit />
       </div>
       <div
-        class="ingredient-preview-input grid grid-cols-5 my-3 text-md gap-x-2 ml-2"
+        class="ingredient-preview-input grid grid-cols-9 my-3 text-md gap-x-2 ml-2"
       >
+        <div class="col-span-1"></div>
         <input
           type="text"
-          class="col-span-3"
+          class="col-span-4"
           placeholder="Butter"
           v-model="material"
         />
         <input
           type="text"
-          class="col-span-2"
+          class="col-span-4"
           placeholder="150g"
           v-model="amount"
         />
-        <div class="btns col-span-5 flex justify-center my-10">
+        <div class="btns col-span-9 flex justify-center my-10">
           <button class="button" @click="add_material">
             <span v-if="this.$store.getters.lan">添加原料</span
             ><span v-else>Add ingredients</span>
@@ -27,7 +28,7 @@
         </div>
       </div>
     </div>
-    <div class="processes px-6 py-5 content-start gap-y-3">
+    <div class="processes w-5/6 mx-auto px-0 py-5 content-start gap-y-3 md:w-3/4">
       <food-method-edit />
       <textarea
         class="w-full"
@@ -48,6 +49,8 @@
           v-if="image_url"
           :image_url="image_url"
           image_type="image"
+          class="h-40 md:w-1/2 mx-auto md:h-56"
+
         />
       </div>
       <div class="btns flex justify-center">
@@ -134,7 +137,7 @@ export default {
           }
         }).then((res)=>{
           console.log(res.data);
-          this.$router.push(`/food/${this.foodId}`);
+          this.$emit('finish',this.foodId)
         }).catch((err)=> alert(err));
       }
     }
