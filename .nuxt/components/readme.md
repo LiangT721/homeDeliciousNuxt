@@ -1,0 +1,45 @@
+# Discovered Components
+
+This is an auto-generated list of components discovered by [nuxt/components](https://github.com/nuxt/components).
+
+You can directly use them in pages and other components without the need to import them.
+
+**Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
+
+- `<EditFoodInfoEdit>` | `<edit-food-info-edit>` (components/edit/foodInfoEdit.vue)
+- `<EditMethodEdit>` | `<edit-method-edit>` (components/edit/methodEdit.vue)
+- `<FoodVueCookwayIcon>` | `<food-vue-cookway-icon>` (components/food.vue/cookwayIcon.vue)
+- `<FoodInfoText>` | `<food-info-text>` (components/food.vue/foodInfoText.vue)
+- `<FoodIngredients>` | `<food-ingredients>` (components/food.vue/foodIngredients.vue)
+- `<FoodMethods>` | `<food-methods>` (components/food.vue/foodMethods.vue)
+- `<FoodPhoto>` | `<food-photo>` (components/food.vue/foodPhoto.vue)
+- `<FoodVueRateGrade>` | `<food-vue-rate-grade>` (components/food.vue/rateGrade.vue)
+- `<LoginPageSignUp>` | `<login-page-sign-up>` (components/loginPage/signUp.vue)
+- `<HomePageSelectionBar>` | `<home-page-selection-bar>` (components/homePage/selectionBar.vue)
+- `<HomePageTrendList>` | `<home-page-trend-list>` (components/homePage/trendList.vue)
+- `<PublicBottomBar>` | `<public-bottom-bar>` (components/public/bottomBar.vue)
+- `<PublicCardList>` | `<public-card-list>` (components/public/cardList.vue)
+- `<PublicCollection>` | `<public-collection>` (components/public/collection.vue)
+- `<PublicFoodCard>` | `<public-food-card>` (components/public/foodCard.vue)
+- `<PublicGrade>` | `<public-grade>` (components/public/grade.vue)
+- `<PublicIconLoading>` | `<public-icon-loading>` (components/public/iconLoading.vue)
+- `<PublicImagePreview>` | `<public-image-preview>` (components/public/imagePreview.vue)
+- `<PublicImageUpload>` | `<public-image-upload>` (components/public/imageUpload.vue)
+- `<PublicLogo>` | `<public-logo>` (components/public/logo.vue)
+- `<PublicSearchBar>` | `<public-search-bar>` (components/public/searchBar.vue)
+- `<PublicSideBar>` | `<public-side-bar>` (components/public/sideBar.vue)
+- `<PublicUserIcon>` | `<public-user-icon>` (components/public/userIcon.vue)
+- `<SearchTag>` | `<search-tag>` (components/searchPage.vue/searchTag.vue)
+- `<SettingPageAccountModify>` | `<setting-page-account-modify>` (components/settingPage/accountModify.vue)
+- `<SettingPageDeleteAccount>` | `<setting-page-delete-account>` (components/settingPage/deleteAccount.vue)
+- `<SettingPageImageEditPreview>` | `<setting-page-image-edit-preview>` (components/settingPage/imageEditPreview.vue)
+- `<SettingPageLanuageSetting>` | `<setting-page-lanuage-setting>` (components/settingPage/lanuageSetting.vue)
+- `<SettingPagePasswordComfirm>` | `<setting-page-password-comfirm>` (components/settingPage/passwordComfirm.vue)
+- `<SettingPagePasswordModify>` | `<setting-page-password-modify>` (components/settingPage/passwordModify.vue)
+- `<SharePageFoodInfoUpload>` | `<share-page-food-info-upload>` (components/sharePage/foodInfoUpload.vue)
+- `<SharePageFoodIngredientsEdit>` | `<share-page-food-ingredients-edit>` (components/sharePage/foodIngredientsEdit.vue)
+- `<SharePageFoodMethodEdit>` | `<share-page-food-method-edit>` (components/sharePage/foodMethodEdit.vue)
+- `<SharePageMethodUpload>` | `<share-page-method-upload>` (components/sharePage/methodUpload.vue)
+- `<UserCollectionCards>` | `<user-collection-cards>` (components/userPage/userCollectionCards.vue)
+- `<UserFoodCards>` | `<user-food-cards>` (components/userPage/userFoodCards.vue)
+- `<UserPageToggle>` | `<user-page-toggle>` (components/userPage/userPageToggle.vue)
