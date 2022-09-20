@@ -2,15 +2,15 @@ import { wrapFunctional } from './utils'
 
 export { default as EditFoodInfoEdit } from '../..\\components\\edit\\foodInfoEdit.vue'
 export { default as EditMethodEdit } from '../..\\components\\edit\\methodEdit.vue'
-export { default as HomePageSelectionBar } from '../..\\components\\homePage\\selectionBar.vue'
-export { default as HomePageTrendList } from '../..\\components\\homePage\\trendList.vue'
-export { default as LoginPageSignUp } from '../..\\components\\loginPage\\signUp.vue'
 export { default as FoodVueCookwayIcon } from '../..\\components\\food.vue\\cookwayIcon.vue'
 export { default as FoodInfoText } from '../..\\components\\food.vue\\foodInfoText.vue'
 export { default as FoodIngredients } from '../..\\components\\food.vue\\foodIngredients.vue'
 export { default as FoodMethods } from '../..\\components\\food.vue\\foodMethods.vue'
 export { default as FoodPhoto } from '../..\\components\\food.vue\\foodPhoto.vue'
 export { default as FoodVueRateGrade } from '../..\\components\\food.vue\\rateGrade.vue'
+export { default as LoginPageSignUp } from '../..\\components\\loginPage\\signUp.vue'
+export { default as HomePageSelectionBar } from '../..\\components\\homePage\\selectionBar.vue'
+export { default as HomePageTrendList } from '../..\\components\\homePage\\trendList.vue'
 export { default as PublicBottomBar } from '../..\\components\\public\\bottomBar.vue'
 export { default as PublicCardList } from '../..\\components\\public\\cardList.vue'
 export { default as PublicCollection } from '../..\\components\\public\\collection.vue'
@@ -40,15 +40,15 @@ export { default as UserPageToggle } from '../..\\components\\userPage\\userPage
 
 export const LazyEditFoodInfoEdit = import('../..\\components\\edit\\foodInfoEdit.vue' /* webpackChunkName: "components/edit-food-info-edit" */).then(c => wrapFunctional(c.default || c))
 export const LazyEditMethodEdit = import('../..\\components\\edit\\methodEdit.vue' /* webpackChunkName: "components/edit-method-edit" */).then(c => wrapFunctional(c.default || c))
-export const LazyHomePageSelectionBar = import('../..\\components\\homePage\\selectionBar.vue' /* webpackChunkName: "components/home-page-selection-bar" */).then(c => wrapFunctional(c.default || c))
-export const LazyHomePageTrendList = import('../..\\components\\homePage\\trendList.vue' /* webpackChunkName: "components/home-page-trend-list" */).then(c => wrapFunctional(c.default || c))
-export const LazyLoginPageSignUp = import('../..\\components\\loginPage\\signUp.vue' /* webpackChunkName: "components/login-page-sign-up" */).then(c => wrapFunctional(c.default || c))
 export const LazyFoodVueCookwayIcon = import('../..\\components\\food.vue\\cookwayIcon.vue' /* webpackChunkName: "components/food-vue-cookway-icon" */).then(c => wrapFunctional(c.default || c))
 export const LazyFoodInfoText = import('../..\\components\\food.vue\\foodInfoText.vue' /* webpackChunkName: "components/food-info-text" */).then(c => wrapFunctional(c.default || c))
 export const LazyFoodIngredients = import('../..\\components\\food.vue\\foodIngredients.vue' /* webpackChunkName: "components/food-ingredients" */).then(c => wrapFunctional(c.default || c))
 export const LazyFoodMethods = import('../..\\components\\food.vue\\foodMethods.vue' /* webpackChunkName: "components/food-methods" */).then(c => wrapFunctional(c.default || c))
 export const LazyFoodPhoto = import('../..\\components\\food.vue\\foodPhoto.vue' /* webpackChunkName: "components/food-photo" */).then(c => wrapFunctional(c.default || c))
 export const LazyFoodVueRateGrade = import('../..\\components\\food.vue\\rateGrade.vue' /* webpackChunkName: "components/food-vue-rate-grade" */).then(c => wrapFunctional(c.default || c))
+export const LazyLoginPageSignUp = import('../..\\components\\loginPage\\signUp.vue' /* webpackChunkName: "components/login-page-sign-up" */).then(c => wrapFunctional(c.default || c))
+export const LazyHomePageSelectionBar = import('../..\\components\\homePage\\selectionBar.vue' /* webpackChunkName: "components/home-page-selection-bar" */).then(c => wrapFunctional(c.default || c))
+export const LazyHomePageTrendList = import('../..\\components\\homePage\\trendList.vue' /* webpackChunkName: "components/home-page-trend-list" */).then(c => wrapFunctional(c.default || c))
 export const LazyPublicBottomBar = import('../..\\components\\public\\bottomBar.vue' /* webpackChunkName: "components/public-bottom-bar" */).then(c => wrapFunctional(c.default || c))
 export const LazyPublicCardList = import('../..\\components\\public\\cardList.vue' /* webpackChunkName: "components/public-card-list" */).then(c => wrapFunctional(c.default || c))
 export const LazyPublicCollection = import('../..\\components\\public\\collection.vue' /* webpackChunkName: "components/public-collection" */).then(c => wrapFunctional(c.default || c))
