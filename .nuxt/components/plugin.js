@@ -4,6 +4,8 @@ import { wrapFunctional } from './utils'
 const components = {
   EditFoodInfoEdit: () => import('../..\\components\\edit\\foodInfoEdit.vue' /* webpackChunkName: "components/edit-food-info-edit" */).then(c => wrapFunctional(c.default || c)),
   EditMethodEdit: () => import('../..\\components\\edit\\methodEdit.vue' /* webpackChunkName: "components/edit-method-edit" */).then(c => wrapFunctional(c.default || c)),
+  HomePageSelectionBar: () => import('../..\\components\\homePage\\selectionBar.vue' /* webpackChunkName: "components/home-page-selection-bar" */).then(c => wrapFunctional(c.default || c)),
+  HomePageTrendList: () => import('../..\\components\\homePage\\trendList.vue' /* webpackChunkName: "components/home-page-trend-list" */).then(c => wrapFunctional(c.default || c)),
   LoginPageSignUp: () => import('../..\\components\\loginPage\\signUp.vue' /* webpackChunkName: "components/login-page-sign-up" */).then(c => wrapFunctional(c.default || c)),
   FoodVueCookwayIcon: () => import('../..\\components\\food.vue\\cookwayIcon.vue' /* webpackChunkName: "components/food-vue-cookway-icon" */).then(c => wrapFunctional(c.default || c)),
   FoodInfoText: () => import('../..\\components\\food.vue\\foodInfoText.vue' /* webpackChunkName: "components/food-info-text" */).then(c => wrapFunctional(c.default || c)),
@@ -11,8 +13,6 @@ const components = {
   FoodMethods: () => import('../..\\components\\food.vue\\foodMethods.vue' /* webpackChunkName: "components/food-methods" */).then(c => wrapFunctional(c.default || c)),
   FoodPhoto: () => import('../..\\components\\food.vue\\foodPhoto.vue' /* webpackChunkName: "components/food-photo" */).then(c => wrapFunctional(c.default || c)),
   FoodVueRateGrade: () => import('../..\\components\\food.vue\\rateGrade.vue' /* webpackChunkName: "components/food-vue-rate-grade" */).then(c => wrapFunctional(c.default || c)),
-  HomePageSelectionBar: () => import('../..\\components\\homePage\\selectionBar.vue' /* webpackChunkName: "components/home-page-selection-bar" */).then(c => wrapFunctional(c.default || c)),
-  HomePageTrendList: () => import('../..\\components\\homePage\\trendList.vue' /* webpackChunkName: "components/home-page-trend-list" */).then(c => wrapFunctional(c.default || c)),
   PublicBottomBar: () => import('../..\\components\\public\\bottomBar.vue' /* webpackChunkName: "components/public-bottom-bar" */).then(c => wrapFunctional(c.default || c)),
   PublicCardList: () => import('../..\\components\\public\\cardList.vue' /* webpackChunkName: "components/public-card-list" */).then(c => wrapFunctional(c.default || c)),
   PublicCollection: () => import('../..\\components\\public\\collection.vue' /* webpackChunkName: "components/public-collection" */).then(c => wrapFunctional(c.default || c)),

@@ -22,7 +22,7 @@
         <div class="selection-bar sticky top-20 z-30 bg-primary md:h-32">
           <selection-bar />
         </div>
-        <div class="home-food-card-part md:grid md:grid-cols-2">
+        <div class="home-food-card-part lg:grid lg:grid-cols-2">
           <div
             class="md:col-span-1"
             v-for="card in card_list"

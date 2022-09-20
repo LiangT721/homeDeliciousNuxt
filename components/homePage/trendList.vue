@@ -16,7 +16,7 @@
             alt=""
           />
           <div
-            class="trend-card w-3/4 h-1/3 bg-white mx-auto relative rounded-lg shadow-lg -top-20 grid grid-cols-5 py-2 px-3 text-xs font-fonts md:w-1/2"
+            class="trend-card w-3/4 h-1/3 bg-white mx-auto relative rounded-lg shadow-lg -top-20 grid grid-cols-5 py-2 px-3 text-xs font-fonts md:w-1/2 md:h-1/5"
           >
             <div class="grade col-span-4">
               <grade :grade="food.grade"/>

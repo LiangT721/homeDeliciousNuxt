@@ -5,6 +5,12 @@
   "EditMethodEdit": {
     "description": "Auto imported from components/edit/methodEdit.vue"
   },
+  "HomePageSelectionBar": {
+    "description": "Auto imported from components/homePage/selectionBar.vue"
+  },
+  "HomePageTrendList": {
+    "description": "Auto imported from components/homePage/trendList.vue"
+  },
   "LoginPageSignUp": {
     "description": "Auto imported from components/loginPage/signUp.vue"
   },
@@ -25,12 +31,6 @@
   },
   "FoodVueRateGrade": {
     "description": "Auto imported from components/food.vue/rateGrade.vue"
-  },
-  "HomePageSelectionBar": {
-    "description": "Auto imported from components/homePage/selectionBar.vue"
-  },
-  "HomePageTrendList": {
-    "description": "Auto imported from components/homePage/trendList.vue"
   },
   "PublicBottomBar": {
     "description": "Auto imported from components/public/bottomBar.vue"

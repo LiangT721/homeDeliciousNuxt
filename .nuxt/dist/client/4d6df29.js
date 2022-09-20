@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[32],{387:function(t,e,n){"use strict";n.r(e);var l={},o=n(42),component=Object(o.a)(l,(function(){var t=this,e=t.$createElement;return(t._self._c||e)("div",{staticClass:" absolute top-0 w-full h-full bg-red-400"},[t._v("\n    password\n")])}),[],!1,null,"09ddfa9f",null);e.default=component.exports}}]);
