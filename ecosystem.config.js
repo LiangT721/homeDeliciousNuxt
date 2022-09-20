@@ -5,11 +5,7 @@ module.exports = {
       exec_mode: "cluster",
       instances: "max",
       script: "./node_modules/nuxt/bin/nuxt.js",
-      args: "start",
-      env: {
-        PORT: 4000,
-        NODE_ENV: "production"
-      }
+      args: "start"
     }
   ]
 };
